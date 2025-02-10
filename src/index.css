@@ -1,0 +1,84 @@
+@import "./Styles/tailwind-components.css";
+@import "@material/textfield/dist/mdc.textfield.css";
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #b8b8b8 transparent;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #b8b8b8;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px rgba(250, 250, 250, 0.0) inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.dark input:-webkit-autofill {
+  -webkit-text-fill-color: white !important;
+}
+
+/* .react-tel-input .selected-flag:hover, .react-tel-input .selected-flag:focus, .react-tel-input .flag-dropdown.open, .react-tel-input .flag-dropdown.open .selected-flag {
+  background-color: transparent !important;
+}
+
+.react-tel-input .flag-dropdown.open {
+  background: none !important;
+}
+
+/* .react-tel-input .country-list .country.highlight {
+  background-color: rgba(221, 221, 221, 0.5) !important;
+} */ 
+
+.react-tel-input .flag-dropdown.open .selected-flag {
+background: none !important;
+}
+
+.react-tel-input .selected-flag:hover, .react-tel-input .selected-flag:focus {
+  background-color: transparent !important ;
+}
+
+.react-tel-input .country-list .country.highlight, .react-tel-input .country-list .country:hover {
+  background-color: rgba(221, 221, 221, 0.5) !important;
+}
+
+.react-tel-input .flag-dropdown {
+  border-right: none !important;
+  border-radius: 8px 0 0 8px !important;
+}
+
+.divider {
+  padding-bottom: 0px !important;
+  margin-bottom: 0px !important;
+}

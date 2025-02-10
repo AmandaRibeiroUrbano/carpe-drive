@@ -1,0 +1,6 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+import { SiFacebook, SiGoogle } from "react-icons/si";
+const SocialMediaLogin = () => {
+    return (_jsxs("div", { className: "text-center", children: [_jsxs("div", { className: "flex items-center my-5", children: [_jsx("hr", { className: "flex-grow border-gray-400 dark:border-gray-500" }), _jsx("span", { className: "mx-2 text-sm text-gray-400 dark:text-gray-500", children: "OU" }), _jsx("hr", { className: "flex-grow border-gray-400 dark:border-gray-500" })] }), _jsxs("div", { className: "grid grid-cols-1 sm:grid-cols-2 gap-4 mb-7", children: [_jsxs("button", { className: "flex gap-5 p-2 pl-4 rounded-lg border text-[#db4939] dark:text-[#f58174] border-gray-300 dark:border-gray-500 hover:bg-[#fde6e3] dark:hover:bg-gray-700", children: [_jsx(SiGoogle, { size: 24 }), " ", _jsx("p", { children: " Entrar com o Google " })] }), _jsxs("button", { className: "p-2 pl-4 flex gap-5 rounded-lg border text-[#3b5998] dark:text-[#a0b4d9] border-gray-300 dark:border-gray-500 hover:bg-[#e8ebf6] dark:hover:bg-gray-700", children: [_jsx(SiFacebook, { size: 24 }), " ", _jsx("p", { children: " Entrar com o Facebook " })] })] })] }));
+};
+export default SocialMediaLogin;
